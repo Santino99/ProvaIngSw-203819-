@@ -1,16 +1,16 @@
 package it.unical.ProvaIntermedia;
 
-import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class MyListUtil {
 	
-	public ArrayList<Integer> ordineCrescente(ArrayList<Integer> array){
+	public List<Integer> ordineCrescente(List<Integer> array){
 		Collections.sort(array);
 		return array;
 	}
 	
-	public ArrayList<Integer> ordineDecrescente(ArrayList<Integer> array){
+	public List<Integer> ordineDecrescente(List<Integer> array){
 		Collections.sort(array);
 		Collections.reverse(array);
 		return array;
